@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:defaultValue="0" android:key="preferences">
+    <CheckBoxPreference android:summaryOn="@string/prefs_solution_on" android:summaryOff="@string/prefs_solution_off" android:title="@string/prefs_solution_title" android:key="solutions" android:defaultValue="0"/>
+    <ListPreference android:key="mapTile" android:entries="@array/prefs_mapTile_entries" android:entryValues="@array/prefs_mapTile_values" android:title="@string/prefs_mapTile_title" android:defaultValue="@string/prefs_mapTile_default"/>
+	
+
+</PreferenceScreen>

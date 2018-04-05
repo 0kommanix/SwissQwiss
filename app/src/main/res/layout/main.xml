@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/LinearLayout1"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:baselineAligned="false" >
+
+	<ImageView
+		android:id="@+id/imageView1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:cropToPadding="true"
+		android:padding="20dp"
+		android:src="@drawable/banner" />
+
+	<LinearLayout
+		android:id="@+id/linearLayout2"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_vertical"
+		android:orientation="vertical" >
+
+		<TextView
+			android:id="@+id/welcomeMessage"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="20px"
+			android:gravity="center_vertical|center_horizontal"
+			android:text="@string/welcome"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:textStyle="bold" />
+
+		<Button
+			android:id="@+id/startButton"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:layout_margin="20px"
+			android:text="@string/buttonStart"/>
+
+	</LinearLayout>
+
+</LinearLayout>

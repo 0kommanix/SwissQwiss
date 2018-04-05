@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SwissQwiss</string>
+    <string name="welcome">Welcome to SwissQwiss!</string>
+    <string name="buttonStart">Start Game</string>
+    <string name="error_dbaccess">Error accessing DB</string>
+    <string name="progress">Progress</string>
+    <string name="answerCorrect">That\'s correct!</string>
+    <string name="answerWrong">Bummer… that\'s wrong.</string>
+    <string name="finishedTitle">Game finished!</string>
+    <string name="buttonFinishedOK">OK</string>
+    <string name="labelCorrect">Correct</string>
+    <string name="labelWrong">Wrong</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_about">About</string>
+    <string name="prefs_solution_on">Solutions will be displayed</string>
+    <string name="prefs_solution_off">Solutions will not be displayed</string>
+    <string name="prefs_solution_title">Display Solutions</string>
+		<string name="prefs_mapTile_title">Select map details</string>
+		<string name="prefs_mapTile_default">map_ch_lakes</string>
+ 		<string-array name="prefs_mapTile_entries">
+		 <item>No details</item>
+		 <item>Lakes/rivers</item>
+			<item>Lakes/rivers and cantons</item>
+		</string-array>
+		<string-array name="prefs_mapTile_values">
+		 <item>map_ch_empty</item>
+		 <item>map_ch_lakes</item>
+			<item>map_ch_full</item>
+		</string-array>
+			<string name="about_title">About</string>
+			<string name="about_message">Not much to say…\nHave fun with geography!</string>
+			<string name="about_button_dismiss">Dismiss</string>
+			<string name="labelSolution">Solution</string>
+			<string name="finished_button_continue">Continue</string>
+			<string name="finished_message1">"You've got "</string>
+			<string name="finished_message2">" question(s) right."</string>
+		
+</resources>
